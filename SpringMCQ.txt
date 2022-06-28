@@ -97,7 +97,7 @@ a.	Using init() method only.
 
 
 
-13)Spring’s @Controller can be applied to methods? 
+13)Springâ€™s @Controller can be applied to methods? 
 
 
 TRUE
@@ -105,7 +105,7 @@ TRUE
 FALSE
 
 
-14)How would you load a bean from the Spring’s application context?
+14)How would you load a bean from the Springâ€™s application context?
 
 
 appContext.getSpringBean(beanName)
@@ -117,10 +117,10 @@ appContext.getbean(beanName)
 appContext.loadBean(beanName)
 
 15) Which of the given syntax is correct to get a unique instance of a bean each time it is asked for?
-	1). <bean id=“foo” class=“com.igate.Foo” scope=“prototype” />
-	2). <bean id=“foo” class=“com.igate.Foo” scope=“singleton” />
-	3). <bean id=“foo” class=“com.igate.Foo” scope=“request” />
-	4). <bean id=“foo” class=“com.igate.Foo” scope=“session” />
+	1). <bean id=â€œfooâ€ class=â€œcom.igate.Fooâ€ scope=â€œprototypeâ€ />
+	2). <bean id=â€œfooâ€ class=â€œcom.igate.Fooâ€ scope=â€œsingletonâ€ />
+	3). <bean id=â€œfooâ€ class=â€œcom.igate.Fooâ€ scope=â€œrequestâ€ />
+	4). <bean id=â€œfooâ€ class=â€œcom.igate.Fooâ€ scope=â€œsessionâ€ />
 
 16)Look at the bean below. 
 
@@ -207,7 +207,7 @@ Which annotation you will use to inject Collection types:
 What is the purpose of @Qualifier annotation?
 
 
-Spring doesn’t support this annotation
+Spring doesnâ€™t support this annotation
 
 It helps specify object with multiple dependency which dependency to inject
 
@@ -247,4 +247,3 @@ Spring provides support for both REST and SOAP based web services?
 
 TRUE
 
-FALSE
